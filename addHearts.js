@@ -1,4 +1,4 @@
-function addHeartButtonsWithJQuery() {
+(function addHeartButtonsWithJQuery() {
   if (typeof jQuery !== 'undefined') {
     jQuery('<style>').text(`
       .favorite-button {
@@ -97,4 +97,4 @@ setTimeout(function() {
   if (typeof jQuery !== 'undefined') {
     addHeartButtonsWithJQuery();
   }
-}, 1000);
+}, 1000))();
